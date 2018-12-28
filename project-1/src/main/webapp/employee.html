@@ -1,0 +1,53 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1" />
+    <title>Page Title</title>
+    <script src="employee.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <h3>WeLcOmE VaLuEd eMpLoYeE</h3>
+    <div>
+        <div>
+            <div>
+                <button id="logout" onclick="logout()">Logout</button>
+            </div>
+            <div>
+                <label for="">View pending requests</label>
+                <button id="viewReq" onclick="pendingReq()">Button</button>
+            </div>
+            <div>
+                <label for="">View resolved requests</label>
+                <button id="viewReq" onclick="resolvedReq()">Button</button>
+            </div>
+            <div>
+                <label for="">Create new reimbusement</label>
+                <button id="newReq" onclick="newRequest()">Button</button>
+            </div>
+            <div>
+                <label for="">Update Email Address</label>
+                <button id="email" onclick="changeEmail()">Button</button>
+            </div>
+            <div>
+                <label for="">View Information</label>
+                <button id="info" onclick="viewInfo()">Button</button>
+            </div>
+        </div>
+        <div id="parent">
+            <ul id="reimbList">Placeholder</ul>
+        </div>
+        <!-- <div>
+            <p id="newReim"></p>
+        </div> -->
+        
+    <div>
+        <button id="clear" onclick="clearChildren()">Clear</button>
+    </div>
+    </div>
+
+    <script type="text/javascript" src="employee.js"></script>
+
+</body>
+</html>
