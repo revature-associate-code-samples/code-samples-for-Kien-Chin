@@ -1,7 +1,7 @@
 # Project 2 - Gorgeous Voting
 Gorgeous Voting is a website that is designed to help average voters get information about political candidates. The information provided includes each candidate’s general information as well as their voting history while in office. Users will be able to search for candidates by name or by the user’s address. Additionally, Users will be able to view information on various federal bills that their candidates voted on. We are using Google's Civic Info API to get the information about the candidates and ProPublica's API to retrieve information about the bills.
 
-For this project, I was responsible for implementing the front-end of the project, I developed an angular project that was capable of sending queries to Google’s Civic Info API and display the results as well as send HTTP requests to the back-end for user validation and retrieving the user’s information.
+For this project, I was responsible for implementing the front-end of the project, I developed an angular project that was capable of sending HTTP requests to Google’s Civic Info API and display the results as well as send requests to the back-end for user validation and retrieving the user’s information.
 
 ## Roles / Responsibilities
  * Team Lead - Managed team members responsibilities.
