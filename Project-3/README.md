@@ -9,4 +9,17 @@ My Responsibilities for this iteration of the project were mainly to convert the
  * Defer unnecessary scripts in the index.html - The previous iterations loaded all of the resources in the index.html, I deferred the unused resources so that they won’t slow down performance.
  * Splitting the app.module - The previous iterations only used one module to load all of the resources and dependencies. I split the module into two modules, one has only the necessary components for the landing page, the other has all the remaining components and dependencies. 
 ## Audit Results
-I have included Images that demonstrate the progress that was made. The Before_Audit and After_Audit show the progress that was made during this iteration. The PWA_Audit shows the checklist that Lighthouse generates when evaluating a Progressive Web App. Additionally, the only checkbox that was marked off was the “Does not use HTTPS” which is caused by the fact that the EC2 was not hosted on HTTPS, but this is in progress of being implemented by the service administrator.
+I have included Images that demonstrate the progress that was made. The Before_Audit and After_Audit show the progress that was made during this iteration. The PWA_Audit shows the checklist that Lighthouse generates when evaluating a Progressive Web App. 
+
+When we began our iteration of the project, we ran a lighthouse audit of the webpage and saved the results as Before_Audit.png
+
+![alt text]( https://github.com/revature-associate-code-samples/code-samples-for-Kien-Chin/blob/master/Project-3/Before_Audit.png)
+
+The website received a 0 for performance because the first contentful paint usually took over 40 seconds on a simulated 3G network. The webpage was also could not be audited for PWA features because of a deep link routing issue. Once we fixed the routing for the webpage we ran another audit and it only passed 2 of the 12 tests.
+By the end of our iteration we managed to increase performance to 62 by getting the first contentful paint under 5 seconds.
+
+![alt text]( https://github.com/revature-associate-code-samples/code-samples-for-Kien-Chin/blob/master/Project-3/After_Audit.png)
+
+For our final PWA Checklist we passed 11 of the 12 tests. The only test that the website didn’t pass was the “Does not use HTTPS” which is caused by the fact that the EC2 was not hosted on HTTPS, but this is in progress of being implemented by the service administrator.
+
+![alt text]( https://github.com/revature-associate-code-samples/code-samples-for-Kien-Chin/blob/master/Project-3/PWA_Audit.png)
