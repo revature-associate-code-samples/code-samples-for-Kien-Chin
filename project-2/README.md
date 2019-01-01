@@ -16,4 +16,5 @@ For this project, I was responsible for implementing the front-end of the projec
  HTML, CSS, AJAX, SQL, Java, Spring, DevOps, Angular, Hibernate
 
 Angular Project: https://github.com/KienChin/Project2-Angular
+
 Back End: https://github.com/KienChin/Pipeline
