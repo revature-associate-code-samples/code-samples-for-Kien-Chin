@@ -11,3 +11,6 @@ Gorgeous Voting is a website that is designed to help average voters get informa
  * Used Github to manage source code and collaborate on the project.
  ## Environment / Technologies
  HTML, CSS, AJAX, SQL, Java, Spring, DevOps, Angular, Hibernate
+
+Angular Project: https://github.com/KienChin/Project2-Angular
+Back End: https://github.com/KienChin/Pipeline
