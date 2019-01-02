@@ -5,8 +5,6 @@ The full project at: https://github.com/revaturelabs/rideshare-client
 
 My Responsibilities for this iteration of the project were mainly to convert the website to a Progressive Web Application. I used Google’s Lighthouse auditing tool to assess the website for important PWA features like having the webpage implement a Service Worker, be installable, and be served on HTTPS. Once I had completed converting the website to a PWA, I spent the majority of my time optimizing the webpage for performance.
 
-Audit ready webpage: https://d38jr4rxg3oec5.cloudfront.net/
-
 ## Performance Optimizations
  * Text Minimization - Used Webpack to minimize the JavaScript code during the build process.
  * Text Compression - Configured Amazon Cloudfront to host the webpage on HTTPS and compress the files into a gzip file format.
@@ -15,7 +13,10 @@ Audit ready webpage: https://d38jr4rxg3oec5.cloudfront.net/
  * Defer unnecessary scripts in the index.html - The previous iterations loaded all of the resources in the index.html, I deferred the unused resources so that they won’t slow down performance.
  * Splitting the app.module - The previous iterations only used one module to load all of the resources and dependencies. I split the module into two modules, one has only the necessary components for the landing page, the other has all the remaining components and dependencies. 
 ## Audit Results
-I have included Images that demonstrate the progress that was made. The Before_Audit and After_Audit show the progress that was made during this iteration. The PWA_Audit shows the checklist that Lighthouse generates when evaluating a Progressive Web App. 
+
+Audit ready webpage: https://d38jr4rxg3oec5.cloudfront.net/
+
+I have included images that demonstrate the progress that was made. The Before_Audit and After_Audit show the progress that was made during this iteration. The PWA_Audit shows the checklist that Lighthouse generates when evaluating a Progressive Web App. 
 
 When we began our iteration of the project, we ran a lighthouse audit of the webpage and saved the results as Before_Audit.png
 
